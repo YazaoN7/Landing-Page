@@ -16,6 +16,7 @@ body {
     background-color: #3882f6;
     color: white;
     text-align: center;
+    border-style: none;
 }
 
 .container {
@@ -78,6 +79,9 @@ footer {
 img {
     width: 100px;
     height: 100px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 10px;
 }
 
 .info {
@@ -98,30 +102,69 @@ img {
     color: #1f2937;
     font-weight: 900;
     font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .awesome-container {
     background-color: #1f2937;
     color: #E5E7EB;
-    padding: 10px;
-    margin: 0;
+    padding: 20px;
+    margin: -32px;
     display: flex;
     justify-content: center;
     gap: 10px;
     flex-direction: column;
+    border: 0px;
 }
 
 .quote-text {
     color: #1f2937;
     font-style: italic;
     font-size: 36px;
+    margin: 200px;
 }
 
 .author {
-
+    font-weight: 800;
+    text-align: right;
 }
 
 .quote-section {
     background-color: #E5E7EB;
     padding: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: -30px;
+    margin-right: -30px;
+    resize: none;
+}
+
+.button-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 0px;
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882f6;
+    border-style: none;
+    color: #E5E7EB;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    margin-left: auto;
 }
