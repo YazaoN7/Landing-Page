@@ -20,7 +20,7 @@ header {
 ul {
     display: flex;
     gap: 20px;
- }
+}
 
 a {
     text-decoration: none;
@@ -44,6 +44,7 @@ a {
     gap: 50px;
     flex-direction: column;
 }
+
 .extra-bold {
     font-size: 48px;
     font-weight: 900;
@@ -170,9 +171,6 @@ footer {
     justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
-    margin-left: px;
-    margin-right: px;
     padding: 10px;
-    margin-bottom: px;
     margin-top: auto;
 }
